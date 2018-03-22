@@ -12,7 +12,7 @@ import nico.wata.java.models.Dienststellung;
 import nico.wata.java.models.MitArbeit;
 
 public class HilfFunctions {
-
+	//PRUEBA
 	private static Scanner s = new Scanner(System.in);
 	private static ConexionDB conexion = new ConexionDB("FirmaVerwalten", "localhost", "nico", "nico");
 	private static ControlFirma controlFirma = new ControlFirma(conexion);
