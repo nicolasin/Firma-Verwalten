@@ -1,11 +1,11 @@
 package nico.wata.java.controlls;
 
+
+import java.sql.SQLException;
 import java.util.*;
 import java.util.stream.Collectors;
 
 import org.apache.log4j.Logger;
-
-import java.sql.SQLException;
 
 import nico.wata.java.exceptions.DAOSQLException;
 import nico.wata.java.main.ConexionDB;

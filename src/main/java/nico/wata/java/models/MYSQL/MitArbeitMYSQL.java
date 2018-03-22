@@ -15,7 +15,7 @@ import nico.wata.java.models.DAO.MitArbeitDAO;
 
 public class MitArbeitMYSQL implements MitArbeitDAO {
 	private Connection connection;
-	private static String INSERT = "INSERT INTO `MitArbeiten`(`name`, `vorname`, ` geburtsdatum`, `telefonnummer`, `gehalt`, `dienststellung`, `idArbeitlung`) VALUES(?,?,?,?,?,?,?)";
+	private static String INSERT = "INSERT INTO MitArbeiten(name, vorname, geburtsdatum, telefonnummer, gehalt, dienststellung, idArbeitlung) VALUES(?,?,?,?,?,?,?)";
 	private static String DELETE = "DELETE FROM MitArbeiten where idMitarbeit = ?";
 	private static String GETONE = "SELECT * FROM MitArbeiten where idMitarbeit = ?";
 	private static String GETALL = "SELECT * FROM MitArbeiten";

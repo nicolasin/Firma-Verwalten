@@ -3,13 +3,6 @@ package nico.wata.java.models;
 import java.time.LocalDate;
 
 public class MitArbeit {
-	@Override
-	public String toString() {
-		return "MitArbeit [idMitArbeit=" + idMitArbeit + ", idAbteilung=" + idAbteilung + ", name=" + name
-				+ ", vorname=" + vorname + ", telefonNummer=" + telefonNummer + ", geburtsdatum=" + geburtsdatum
-				+ ", gehalt=" + gehalt + ", stellung=" + stellung + "]";
-	}
-
 	private Long idMitArbeit;
 	private Long idAbteilung;
 	private String name;
@@ -21,7 +14,7 @@ public class MitArbeit {
 
 	public MitArbeit(String name, String vorname, String telefonNummer, LocalDate geburtsdatum, double gehalt,
 			Dienststellung stellung, Long idAbteilung) {
-		
+
 		this.idAbteilung = idAbteilung;
 		this.name = name;
 		this.vorname = vorname;
@@ -94,5 +87,10 @@ public class MitArbeit {
 	public void setStellung(Dienststellung stellung) {
 		this.stellung = stellung;
 	}
-
+	@Override
+	public String toString() {
+		return "MitArbeit [idMitArbeit=" + idMitArbeit + ", idAbteilung=" + idAbteilung + ", name=" + name
+				+ ", vorname=" + vorname + ", telefonNummer=" + telefonNummer + ", geburtsdatum=" + geburtsdatum
+				+ ", gehalt=" + gehalt + ", stellung=" + stellung + "]";
+	}
 }
