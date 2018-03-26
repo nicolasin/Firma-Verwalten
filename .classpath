@@ -7,5 +7,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="/Users/nicolasmartos/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="/Users/nicolasmartos/Downloads/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/nicolasmartos/eclipse-workspace/FirmaVerwalten/jars/h2-1.4.197.jar"/>
+	<classpathentry kind="lib" path="jars/javax.servlet.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

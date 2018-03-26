@@ -30,7 +30,11 @@ public class ConexionDB {
 		this.clave = pass;
 		this.conexion = null;
 	}
-
+	public void ConnectH2()throws SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException{
+		Class.forName("org.h2.Driver").newInstance(); 
+		String url = "jdbc:h2:"+"./Database/"+this.nameDB;
+		conexion = DriverManager.getConnection(url, this.usuario, this.clave);
+	}
 	public void Connect() throws SQLException {
 
 		String url = "jdbc:mysql://" + this.maquina + ":" + this.puerto + "/" + this.nameDB;

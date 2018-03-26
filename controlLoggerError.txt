@@ -1,5 +1,2 @@
-    0 ERROR [main] controlls.ControlFirma - Error to Create neu Firma: Error in der Verbindung: Unknown column ' geburtsdatum' in 'field list'
- 79829 ERROR [main] controlls.ControlMitArbeit -  Insert aendernAbteilung : Error in der Verbindung: Before start of result set
- 79835 ERROR [main] controlls.ControlMitArbeit -  Insert aendernDienstellung : Error in der Verbindung: Before start of result set
- 79848 ERROR [main] controlls.ControlMitArbeit -  Insert aendernGehalt : Error in der Verbindung: Before start of result set
+    0 ERROR [main] controlls.ControlFirma - List Abteilung SQL Access denied for user 'root'@'localhost' (using password: YES)
  
